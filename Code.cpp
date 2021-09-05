@@ -23,19 +23,19 @@ void print()
 		else
 		if(c2==1)
 		{
-			strcpy(m,"JOKER");
+			strcpy(m,"MOVIE 1");
 		}
 		else if(c2==2)
 		{
-		       strcpy(m,"CARS 2");
+		       strcpy(m,"MOVIE 2");
 		}
 		else if(c2==3)
 		{
-		       strcpy(m,"BIGIL");
+		       strcpy(m,"MOVIE 3");
 		}
 		else if(c2==4)
 		{
-		       strcpy(m,"KAITHI");
+		       strcpy(m,"MOVIE 4");
 		}
 
 	}
@@ -51,14 +51,14 @@ void print()
 			else
 		if(c2==1)
 		{
-		       strcpy(m,"ENPT");
+		       strcpy(m,"MOVIE 5");
 		}
 
 		else if(c2==2)
 		{
-			strcpy(m,"ADITHYA VARMA");
+			strcpy(m,"MOVIE 6");
 		}
-	}
+	} 										// Multiple languages can be added using more else if statements
 	clrscr();
 	cout<<"Choose the show time which you want\n1.07:30\n2.11:30\n3.15:30\n4.18:30\n5.22:15\n";
 	l3:cin>>c4;
