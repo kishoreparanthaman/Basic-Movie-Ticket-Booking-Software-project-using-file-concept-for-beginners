@@ -2,6 +2,10 @@
 
 
 
+
+
 This project uses file concept of C++
+
+the user booking details can be seen on the local file that gets created when the user books the ticket
 
 
